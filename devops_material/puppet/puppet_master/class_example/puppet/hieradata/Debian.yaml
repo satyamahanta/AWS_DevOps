@@ -1,0 +1,4 @@
+---
+sshservicename: ssh
+appv1: addressbook_v1
+test: val1

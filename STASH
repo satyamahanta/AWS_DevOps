@@ -1,0 +1,18 @@
+  173  git pull
+  174  git rm --cached *.txt
+  176  git push origin master
+  #text files deleted from GIT Hub 
+  184  git stash save "a.txt"
+  185  vim b.txt
+  186  git log --oneline
+  188  git stash list
+  189  git status
+  190  git add *
+  192  git commit -m "stash b file added"
+  194  git stash list
+  195  git stash apply stash@{0}
+  196  git log --oneline
+  199  git add a.txt
+  201  git status
+  202  git commit -m "stash a  file added"
+  204  git push origin master
